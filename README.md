@@ -107,6 +107,3 @@ It is a **framework** — a seed for future development.
 ## **License**
 MIT License — see LICENSE file.
 
-# ✅ **END OF README CONTENT**
-
----
