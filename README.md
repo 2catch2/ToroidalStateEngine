@@ -1,4 +1,3 @@
-
 # **ToroidalStateEngine**  
 *A Unified Toroidal Memory‑Process Architecture*
 
@@ -73,7 +72,7 @@ This architecture is released freely and publicly by **2catch2 (Robert)** with t
 
 > Anyone may use, modify, extend, research, or develop this system for any purpose, including commercial applications.  
 > No credit, compensation, or permission is required.  
-> This is a gift to the world.
+> This is a gift.
 
 ## **Why This Matters**
 The ToroidalStateEngine explores a computational paradigm where:
@@ -174,4 +173,11 @@ src/
 These simulations preserve the **exact behavior** of the original Colab prototype.  
 No logic has been altered, optimized, or rewritten.
 
+---
+## 6. Run Using the Main Launcher
+
+You can run either simulation through a unified launcher:
+
+```bash
+python main.py
 ---
