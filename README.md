@@ -107,3 +107,71 @@ It is a **framework** — a seed for future development.
 ## **License**
 MIT License — see LICENSE file.
 
+---
+
+# **📘 How to Run the ToroidalStateEngine Simulations**
+
+To run the simulations included in this repository, use any standard Python 3 environment.
+
+## **1. Run the Microcode Overwrite Simulation**
+This simulation demonstrates the 16‑cycle overwrite wave, passive collapse, protect‑history mode, and toroidal pointer movement.
+
+```bash
+python src/microcode_engine.py
+```
+
+You will see:
+
+- 8‑slot toroidal ring evolution  
+- microcode opcode effects  
+- overwrite vs hold behavior  
+- end‑of‑loop ring snapshots  
+
+---
+
+## **2. Run the Master Torus Memory Block Test Bench**
+This simulation exercises the unified memory‑process block, including:
+
+- global reset  
+- angle‑map addressing  
+- stack‑pointer ring traversal  
+- tri‑state bus output  
+- neighbor‑healing logic  
+
+Run it with:
+
+```bash
+python src/test_bench.py
+```
+
+You will see:
+
+- hardware pin output per cycle  
+- telemetry logs  
+- ring state after each operation  
+
+---
+
+## **3. Requirements**
+No external dependencies are required.
+
+- Python 3.8+  
+- Standard library only  
+
+---
+
+## **4. File Structure**
+```
+src/
+ ├── microcode_engine.py       # 16-cycle overwrite simulation
+ ├── master_torus_memory.py    # Unified toroidal memory-process block
+ └── test_bench.py             # Hardware-style execution trace
+```
+
+---
+
+## **5. Notes**
+These simulations preserve the **exact behavior** of the original Colab prototype.  
+No logic has been altered, optimized, or rewritten.
+
+---
