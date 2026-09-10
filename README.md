@@ -5,7 +5,7 @@
 The **ToroidalStateEngine** is a conceptual and experimental computing architecture where **memory is the machine**.  
 Instead of separating CPU, RAM, instruction pointer, and process scheduler, this system unifies them into a single **toroidal state fabric**.
 
-This repository is a **public gift** from the author, **2catch2 (Robert)**, intended for researchers, engineers, and curious minds who wish to explore or develop next‑generation computational substrates.
+This repository is a **public gift** from the author, **2catch2 (Robert Burks)**, intended for researchers, engineers, and curious minds who wish to explore or develop next‑generation computational substrates.
 
 ## **Core Idea**
 Traditional computers divide responsibilities:
@@ -68,7 +68,7 @@ Memory is not passive storage — it is the **active substrate of computation**.
 - *(Future additions)* `/docs` — deeper architectural notes  
 
 ## **Gift Statement**
-This architecture is released freely and publicly by **2catch2 (Robert)** with the intention that:
+This architecture is released freely and publicly by **2catch2 (Robert Burks)** with the intention that:
 
 > Anyone may use, modify, extend, research, or develop this system for any purpose, including commercial applications.  
 > No credit, compensation, or permission is required.  
@@ -181,3 +181,28 @@ You can run either simulation through a unified launcher:
 ```bash
 python main.py
 ---
+## Dual License Overview
+
+This project uses a dual-license model combining open-source access with
+patent-governed commercial rights.
+
+### MIT Open-Source License
+All source code, documentation, diagrams, and explanatory materials in this
+repository are provided under the MIT License. These materials may be freely
+used, modified, and redistributed for non-commercial, academic, or personal
+projects, subject to the terms of the MIT License.
+
+### Patent-Governed Commercial Use
+The underlying toroidal memory-process architecture described in this
+repository is covered by a filed U.S. patent application. The MIT License
+applies only to the copyrighted materials in this repository and does *not*
+grant permission to use the patented invention in any commercial product,
+service, or system.
+
+Any commercial use, implementation, or integration of the patented
+architecture—whether standalone or embedded—requires a separate commercial
+license or written permission from the patent holder.
+
+### Summary
+- MIT License → covers code and documentation  
+- Patent protection → governs commercial use of the architecture  
