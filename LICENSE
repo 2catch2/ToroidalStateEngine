@@ -19,3 +19,28 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+## Dual License Overview
+
+This project uses a dual-license model combining open-source access with
+patent-governed commercial rights.
+
+### MIT Open-Source License
+All source code, documentation, diagrams, and explanatory materials in this
+repository are provided under the MIT License. These materials may be freely
+used, modified, and redistributed for non-commercial, academic, or personal
+projects, subject to the terms of the MIT License.
+
+### Patent-Governed Commercial Use
+The underlying toroidal memory-process architecture described in this
+repository is covered by a filed U.S. patent application. The MIT License
+applies only to the copyrighted materials in this repository and does *not*
+grant permission to use the patented invention in any commercial product,
+service, or system.
+
+Any commercial use, implementation, or integration of the patented
+architecture—whether standalone or embedded—requires a separate commercial
+license or written permission from the patent holder.
+
+### Summary
+- MIT License → covers code and documentation  
+- Patent protection → governs commercial use of the architecture  
